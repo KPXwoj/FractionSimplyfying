@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    background-color: #31434f;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    color: #31434f;
+    text-align: center;
+    line-height: 200px;
+}
+
+.header > h1 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+.fraction-header, .score-header {
+    height: 100px;
+    background-color: #41f492;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.fraction-header > p, .score-header > p {
+    line-height: normal;
+    vertical-align: middle;
+    margin: auto;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.fraction-header {
+    border-right: solid 2px #32ba6f;
+}
+
+.score-header {
+    border-left: solid 2px #32ba6f;
+}
+
+.fraction, .score {
+    min-height: 100%;
+    width: 50%;
+}
+
+.fraction {
+    float: left;
+}
+
+.score {
+    float: right;
+}
+
+.numerator, .denominator, .score-numerator, .score-denominator {
+    height: 25vh;
+    width: 100%;
+}
+
+#numerator, #denominator {
+    height: inherit;
+    width: inherit;
+    background-color: inherit;
+    border: none;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+
+.score-numerator, .score-denominator {
+    line-height: 30vh;
+}
+
+.score-numerator > p, .score-denominator  > p {
+    line-height: normal;
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    margin: auto;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.score {
+    text-align: center;
+}
+
+.fractional-mark {
+    margin: 0 20px;
+    border: solid white 5px;
+}
